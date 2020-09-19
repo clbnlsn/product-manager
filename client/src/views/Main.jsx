@@ -27,8 +27,8 @@ const Main = props => {
                                 <td>{p.title}</td>
                                 <td>{p.price}</td>
                                 <td>
-                                    <Link to={`/edit/${p._id}`} className="btn btn-success">Edit</Link>
-                                    <Link to={`/product/${p._id}`} className="btn btn-info">Show</Link>
+                                    <Link to={`/edit/${p._id}`} className="btn btn-outline-warning text-light btn-success">Edit</Link>
+                                    <Link to={`/product/${p._id}`} className="btn btn-outline-warning text-light btn-info">Show</Link>
                                 </td>
                             </tr>
                     })
